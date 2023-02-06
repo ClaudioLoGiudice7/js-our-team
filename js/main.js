@@ -93,52 +93,56 @@ const containerCards = document.getElementById("cards-container");
 containerCards.innerHTML +=
     `  
     <div class="row gy-5">
-        <div class="image-container">        
-            <div class="col-12 col-md-6 col-lg-4 w-100">
-                <img src="./img/wayne-barnett-founder-ceo.jpg" alt="wayne-barnett-founder-ceo">
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-black">
+                <img class="w-100 mb-3" src="./img/wayne-barnett-founder-ceo.jpg"
+                    alt="wayne-barnett-founder-ceo">
                 <h4>Wayne Barnett</h4>
                 <h6>Founder & CEO</h6>
-            </div>
+            </a>
         </div>
 
-        <div class="image-container">        
-            <div class="col-12 col-md-6 col-lg-4 w-100">
-                <img src="./img/angela-caroll-chief-editor.jpg" alt="angela-caroll-chief-editor">
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-black">
+                <img class="w-100 mb-3" src="./img/angela-caroll-chief-editor.jpg"
+                    alt="angela-caroll-chief-editor">
                 <h4>Angela Caroll</h4>
                 <h6>Chief Editor</h6>
-            </div>
+            </a>
         </div>
 
-        <div class="image-container">        
-            <div class="col-12 col-md-6 col-lg-4 w-100">
-                <img src="./img/walter-gordon-office-manager.jpg" alt="walter-gordon-office-manager">
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-black">
+                <img class="w-100 mb-3" src="./img/walter-gordon-office-manager.jpg"
+                    alt="walter-gordon-office-manager">
                 <h4>Walter Gordon</h4>
                 <h6>Office Manager</h6>
-            </div>
+            </a>
         </div>
 
-        <div class="image-container">        
-            <div class="col-12 col-md-6 col-lg-4 w-100">
-                <img src="./img/angela-lopez-social-media-manager.jpg" alt="angela-lopez-social-media-manager">
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-black">
+                <img class="w-100 mb-3" src="./img/angela-lopez-social-media-manager.jpg"
+                    alt="angela-lopez-social-media-manager">
                 <h4>Angela Lopez</h4>
                 <h6>Social Media Manager</h6>
-            </div>
+            </a>
         </div>
 
-        <div class="image-container">        
-            <div class="col-12 col-md-6 col-lg-4 w-100">
-                <img src="./img/scott-estrada-developer.jpg" alt="scott-estrada-developer">
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-black"><img class="w-100 mb-3"
+                    src="./img/scott-estrada-developer.jpg" alt="scott-estrada-developer">
                 <h4>Scott Estrada</h4>
                 <h6>Developer</h6>
-            </div>
+            </a>
         </div>
 
-        <div class="image-container">        
-            <div class="col-12 col-md-6 col-lg-4 w-100">
-                <img src="./img/barbara-ramos-graphic-designer.jpg" alt="barbara-ramos-graphic-designer">
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-black"><img class="w-100 mb-3"
+                    src="./img/barbara-ramos-graphic-designer.jpg" alt="barbara-ramos-graphic-designer">
                 <h4>Barbara Ramos</h4>
                 <h6>Graphic Designer</h6>
-            </div>
+            </a>
         </div>
     </div>
     `
