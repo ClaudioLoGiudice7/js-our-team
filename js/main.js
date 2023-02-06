@@ -81,41 +81,64 @@ for (const membro of membri) {
 }
 
 // MILESTONE 2:
-// STAMPARE LE STESSE INFORMAZIONI SU DOM SOTTOFORMA DI STRINGHE
+// STAMPARE LE STESSE INFORMAZIONI SU DOM SOTTOFORMA DI STRINGHE.
+
+// BONUS 1:
+// TRASFORMARE LA STRINGA FOTO IN UN'IMMAGINE EFFETTIVA.
+
+// BONUS 2:
+// ORGANIZZARE I SINGOLI MEMBRI IN CARD / SCHEDE.
 const containerCards = document.getElementById("cards-container");
 
 containerCards.innerHTML +=
     `  
     <div class="row gy-5">
-        <div class="col-12 col-md-6 col-lg-4">
-            wayne-barnett-founder-ceo.jpg
-            <h4>Wayne Barnett</h4>
-            <h6>Founder & CEO</h6>
+        <div class="image-container">        
+            <div class="col-12 col-md-6 col-lg-4 w-100">
+                <img src="./img/wayne-barnett-founder-ceo.jpg" alt="wayne-barnett-founder-ceo">
+                <h4>Wayne Barnett</h4>
+                <h6>Founder & CEO</h6>
+            </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            angela-caroll-chief-editor.jpg
-            <h4>Angela Caroll</h4>
-            <h6>Chief Editor</h6>
+
+        <div class="image-container">        
+            <div class="col-12 col-md-6 col-lg-4 w-100">
+                <img src="./img/angela-caroll-chief-editor.jpg" alt="angela-caroll-chief-editor">
+                <h4>Angela Caroll</h4>
+                <h6>Chief Editor</h6>
+            </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            walter-gordon-office-manager.jpg
-            <h4>Walter Gordon</h4>
-            <h6>Office Manager</h6>
+
+        <div class="image-container">        
+            <div class="col-12 col-md-6 col-lg-4 w-100">
+                <img src="./img/walter-gordon-office-manager.jpg" alt="walter-gordon-office-manager">
+                <h4>Walter Gordon</h4>
+                <h6>Office Manager</h6>
+            </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            angela-lopez-social-media-manager.jpg
-            <h4>Angela Lopez</h4>
-            <h6>Social Media Manager</h6>
+
+        <div class="image-container">        
+            <div class="col-12 col-md-6 col-lg-4 w-100">
+                <img src="./img/angela-lopez-social-media-manager.jpg" alt="angela-lopez-social-media-manager">
+                <h4>Angela Lopez</h4>
+                <h6>Social Media Manager</h6>
+            </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            scott-estrada-developer.jpg
-            <h4>Scott Estrada</h4>
-            <h6>Developer</h6>
+
+        <div class="image-container">        
+            <div class="col-12 col-md-6 col-lg-4 w-100">
+                <img src="./img/scott-estrada-developer.jpg" alt="scott-estrada-developer">
+                <h4>Scott Estrada</h4>
+                <h6>Developer</h6>
+            </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            barbara-ramos-graphic-designer.jpg
-            <h4>Barbara Ramos</h4>
-            <h6>Graphic Designer</h6>
+
+        <div class="image-container">        
+            <div class="col-12 col-md-6 col-lg-4 w-100">
+                <img src="./img/barbara-ramos-graphic-designer.jpg" alt="barbara-ramos-graphic-designer">
+                <h4>Barbara Ramos</h4>
+                <h6>Graphic Designer</h6>
+            </div>
         </div>
     </div>
     `
